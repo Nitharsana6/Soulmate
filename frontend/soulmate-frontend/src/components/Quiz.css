@@ -1,0 +1,32 @@
+/* src/components/Quiz.css */
+.quiz-container {
+    background-color: lightpink; /* Light pink background */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200vh; /* Full viewport height to center the content */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    text-align: center; /* Ensures all content is centered */
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #d63384; /* Dark pink button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #c2185b; /* Slightly darker shade on hover */
+}
